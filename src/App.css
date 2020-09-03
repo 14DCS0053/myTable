@@ -1,0 +1,75 @@
+body {
+    background: #f0ecec;
+}
+table {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .header {
+    background: #230071;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+  }
+  #root {
+    width: 95%;
+    margin: auto;
+  }
+  thead {
+    background: #14e7fd;
+  }
+  tbody tr:nth-child(even) {
+    background:#e9e9ea;
+  }
+td button {
+    background: #14e7fd;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin: 0 2px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+td .fa {
+    color: #14e7fd;
+    font-size: 18px;
+    font-weight: 500;
+}
+.info.fa.fa-info-circle {
+    float: right;
+}
+table, tr,th,td {
+    border: 1px solid #d5caca;
+    border-collapse: collapse;
+  }
+  th {
+    border-color: #fff;
+    color:#fff;
+    padding: 5px;
+  }  
+  .data-block{
+      margin: 10px 0;
+      background: #fff;
+  }
+  td {
+    padding: 10px;
+}
+.total-km {
+    color: #14e7fd;
+}
+.total-expenses {
+    color: yellow;
+}
+td, th {
+   
+    white-space: pre;
+}
+.table-area{
+    overflow-x: auto;
+    padding: 10px 20px;
+}
+tr td:last-child {
+    padding: 0 50px;
+}
